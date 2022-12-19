@@ -5,6 +5,12 @@
    .box{
        width: 993px;
    }
+	.useable {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-left: 85px;
+}
 }
 @media only screen and (max-width: 1100px){
     section.main-menu.sec{
@@ -29,6 +35,12 @@
         width: 990px;
         margin-left: 10px;
     }
+	.useable {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-left: 8px;
+}
     .glider {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -42,11 +54,21 @@
     section.main-menu.sec {
         width: 901px;
     }
+	.useable {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
 }
 @media only screen and (max-width: 850px){
     section.main-menu.sec {
         width: 815px;
     }
+	.useable {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
 }
 @media only screen and (max-width: 790px){
  section.main-menu.sec {
@@ -83,6 +105,11 @@
         padding: 8px 10px;
         width: auto;
     }
+	.useable {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
 }
 @media only screen and (max-width: 421px){
 	section.main-menu.sec {
@@ -120,6 +147,12 @@
         grid-template-columns: repeat(1, 1fr);
         gap: 10px;
     }
+	.useable {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    margin-left: 70px;
+}
 }
 @media only screen and (max-width: 396px){
     .box {
@@ -177,6 +210,12 @@
         grid-template-columns: repeat(1, 1fr);
         gap: 10px;
     }
+	.useable {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    margin-left: 55px;
+}
 }
 @media only screen and (max-width: 372px){
     .box {
@@ -221,4 +260,10 @@
         padding: 8px 10px;
         width: 90px;
     }
+	.useable {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+    margin-left: 10px;
+}
 }
